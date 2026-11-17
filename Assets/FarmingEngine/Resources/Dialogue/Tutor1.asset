@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6c299a3fd487046bddf74dac3dab86, type: 3}
+  m_Name: Tutor1
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker_name: Wizzy
+    text: Ah, you finally wake up my dear
+    portrait: {fileID: 21300000, guid: f1e613fcd198012459a5ae02e6cc9391, type: 3}
+  - speaker_name: Wizzy
+    text: 'Hellow! Over here! '
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: MC
+    text: Who are you? And where am i?
+    portrait: {fileID: 21300000, guid: ae5d220b434257247ac1efb50f7edd86, type: 3}
+  - speaker_name: Wizzy
+    text: Now, now, stop those eyes from spinning, I know you have a million questions,
+      but let's tackle them one by one, okay?
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: Wizzy
+    text: "The long and short of it? You\u2019ve been cast out."
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: Wizzy
+    text: " Honestly, because of your antics, I\u2019ve had to pull quite a few strings
+      with those stuffy magic federations and the church councils..."
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: Wizzy
+    text: "So, you\u2019d better be grateful for my help, wouldn\u2019t you? Hahaha...
+      ha..ha!"
+    portrait: {fileID: 21300000, guid: f1e613fcd198012459a5ae02e6cc9391, type: 3}
+  - speaker_name: Wizzy
+    text: Ehm
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: Wizzy
+    text: "But don't look so worried, I\u2019m the one who picked this place. "
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: Wizzy
+    text: "It\u2019s hidden well beyond the meddling sight of the federations and
+      those church authorities, so you can be as reckless as you like here without
+      fear"
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: Wizzy
+    text: Oh! I almost forgot the introduction! Before we go any further, you can
+      call me Wuzzy
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
+  - speaker_name: Wizzy
+    text: "I\u2019m your supervisor here. Well, strictly speaking, I\u2019m more
+      like a senior to you, but I\u2019ve named this little device Wuzzy, so just
+      stick with that, alright?"
+    portrait: {fileID: 21300000, guid: af935127c59fd3c4eb72e06cf12ad2c4, type: 3}
