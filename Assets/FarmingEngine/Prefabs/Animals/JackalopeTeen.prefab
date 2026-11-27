@@ -136,6 +136,7 @@ MonoBehaviour:
   use_range: 1.5
   actions:
   - {fileID: 11400000, guid: 10e8bb9f9701c9c49926b3802bd0a588, type: 2}
+  - {fileID: 11400000, guid: ecea1cc6ae569dc43ae2985f1bed3c62, type: 2}
   groups: []
   active_range: 50
   always_run_scripts: 0
@@ -243,6 +244,15 @@ MonoBehaviour:
   grow_to: {fileID: 11400000, guid: 7cc8229ab027aa343acd9027b287f918, type: 2}
   grow_eat_count: 2
   grow_time: 24
+  can_breed: 1
+  baby_data: {fileID: 0}
+  breeding_cooldown_days: 2
+  mate_search_range: 15
+  mate_range: 1.2
+  mate_duration: 5
+  mate_seek_timeout: 20
+  love_fx: {fileID: 0}
+  is_in_love: 0
 --- !u!114 &2903144896332874379
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -137,6 +137,7 @@ MonoBehaviour:
   use_range: 1.5
   actions:
   - {fileID: 11400000, guid: 10e8bb9f9701c9c49926b3802bd0a588, type: 2}
+  - {fileID: 11400000, guid: cf383fa1e9824ff4594ce4f79cae7ac4, type: 2}
   groups:
   - {fileID: 11400000, guid: 3df67befb368c0045aeaf4f6f3a635cd, type: 2}
   active_range: 50

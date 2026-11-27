@@ -258,15 +258,26 @@ private void PositionSlotsManually()
             }
         }
 
-        public override void Hide(bool instant = false)
+                public override void Hide(bool instant = false)
         {
             base.Hide(instant);
 
-            // Munculkan kembali UI yang tadi disembunyikan
+            // 1. Munculkan kembali UI yang tadi disembunyikan
             foreach (GameObject ui in ui_to_hide)
             {
                 if (ui != null) 
                     ui.SetActive(true);
+            }
+
+            // 2. MATIKAN MODE FOKUS KAMERA (Kunci perbaikannya ada di sini)
+            if (TheCamera.Get() != null)
+            {
+                TheCamera.Get().StopFocus(); // <--- INI KUNCINYA
+                
+                // Opsional: Paksa kamera langsung meluncur ke player saat ini juga
+                PlayerCharacter player = PlayerCharacter.GetFirst();
+                if (player != null)
+                    TheCamera.Get().MoveToTarget(player.transform.position);
             }
         }
 

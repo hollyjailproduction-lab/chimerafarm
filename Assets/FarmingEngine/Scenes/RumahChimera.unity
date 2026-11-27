@@ -2828,7 +2828,7 @@ MonoBehaviour:
   wizzy_target: {fileID: 0}
   mandrake_item_id: mandrake
   mandrake_seed_item: {fileID: 11400000, guid: b1086aa35b1260f468dd43c54b795845, type: 2}
-  wuzzy_step8_start: {fileID: 11400000, guid: a984ffab052a205478e0b754dafd3d60, type: 2}
+  wuzzy_step8_start: {fileID: 11400000, guid: 8ed63a873bf569b4fa8b7174c36ba35b, type: 2}
   is_tutorial_completed: 0
   dialog_shop_locked: {fileID: 11400000, guid: 4d209ce9a48d0c14794021120245a04f, type: 2}
 --- !u!4 &1749300452
