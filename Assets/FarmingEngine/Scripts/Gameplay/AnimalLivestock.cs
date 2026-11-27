@@ -160,7 +160,7 @@ namespace FarmingEngine
             //States
             if (state == LivestockState.Wander)
             {
-                Debug.Log($"Cek Stuck: {character.IsStuck()} | Jarak ke target: {(wander_target - transform.position).magnitude}");
+                //Debug.Log($"Cek Stuck: {character.IsStuck()} | Jarak ke target: {(wander_target - transform.position).magnitude}");
                 
                 if (state_timer > wander_interval && wander != WanderBehavior.None)
                 {

@@ -138,6 +138,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 10e8bb9f9701c9c49926b3802bd0a588, type: 2}
   groups:
   - {fileID: 11400000, guid: 816262223ff227c48bfe64a4f5a76f4b, type: 2}
+  - {fileID: 11400000, guid: d42f16bb7eb682c499f36b39cfb03033, type: 2}
   active_range: 50
   always_run_scripts: 0
   outline: {fileID: 5927198942652083371}
@@ -247,7 +248,11 @@ MonoBehaviour:
   can_breed: 1
   baby_data: {fileID: 11400000, guid: f5123dc654bb27d48973ff3fcdae7249, type: 2}
   breeding_cooldown_days: 2
+  mate_search_range: 15
   mate_range: 2
+  mate_duration: 5
+  mate_seek_timeout: 20
+  love_fx: {fileID: 0}
   is_in_love: 0
 --- !u!114 &2903144896332874379
 MonoBehaviour:

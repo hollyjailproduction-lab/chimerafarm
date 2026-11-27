@@ -244,7 +244,7 @@ MonoBehaviour:
   grow_eat_count: 2
   grow_time: 24
   can_breed: 1
-  baby_data: {fileID: 0}
+  baby_data: {fileID: 11400000, guid: 9d715b48b4acd264b8462ba12bb1bddf, type: 2}
   breeding_cooldown_days: 2
   mate_search_range: 15
   mate_range: 1.2

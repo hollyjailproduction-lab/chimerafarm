@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: mandrake
   title: Mandrake
-  icon: {fileID: 21300000, guid: a50f598f1a62a124ea0b5679856c9679, type: 3}
+  icon: {fileID: 21300000, guid: 8e33e5d27f1efea449b511dba029cd67, type: 3}
   desc: Edible and sweet.
   groups:
-  - {fileID: 11400000, guid: 614011cf11609074480a5533beb94215, type: 2}
   - {fileID: 11400000, guid: 98f45e4dc0169054dba81a884451b86f, type: 2}
+  - {fileID: 11400000, guid: 614011cf11609074480a5533beb94215, type: 2}
   craftable: 0
   craft_quantity: 1
   craft_duration: 0
@@ -30,12 +30,12 @@ MonoBehaviour:
   craft_xp: 0
   craft_xp_type: 
   craft_sound: {fileID: 8300000, guid: a959259a1dc64384291aa531cc0f73b1, type: 3}
-  type: 10
+  type: 20
   inventory_max: 20
   durability_type: 10
   durability: 70
-  equip_slot: 0
-  equip_side: 0
+  equip_slot: 10
+  equip_side: 2
   armor: 0
   bag_size: 0
   equip_bonus: []
@@ -54,6 +54,7 @@ MonoBehaviour:
   eat_bonus: []
   eat_bonus_duration: 0
   actions:
+  - {fileID: 11400000, guid: 15af810dc6fe6b746b53fcc59374e103, type: 2}
   - {fileID: 11400000, guid: 303f8b2db86c0064aa7067d5332c4658, type: 2}
   - {fileID: 11400000, guid: c940e7d1134ced948824248625884a12, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
@@ -65,7 +66,7 @@ MonoBehaviour:
   construction_data: {fileID: 0}
   character_data: {fileID: 0}
   projectile_group: {fileID: 0}
-  item_prefab: {fileID: 6176282500031696837, guid: 8cb42738459850e419ad2e8bbc85884c,
+  item_prefab: {fileID: 4121399475332114510, guid: acdc98129899a044aaa6c817268c62e3,
     type: 3}
   equipped_prefab: {fileID: 0}
   projectile_prefab: {fileID: 0}

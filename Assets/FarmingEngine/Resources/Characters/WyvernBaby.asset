@@ -29,6 +29,6 @@ MonoBehaviour:
   craft_xp: 0
   craft_xp_type: 
   craft_sound: {fileID: 8300000, guid: a959259a1dc64384291aa531cc0f73b1, type: 3}
-  character_prefab: {fileID: 2903144896332874383, guid: ba10cb0d8fda0d547b34e3ea9542b94e,
+  character_prefab: {fileID: 2903144896332874383, guid: d525fb0b3f9ccbb44be7b88e0a8a2fe9,
     type: 3}
   take_item_data: {fileID: 0}

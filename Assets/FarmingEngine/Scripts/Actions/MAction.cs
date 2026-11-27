@@ -12,6 +12,7 @@ namespace FarmingEngine
     public abstract class MAction : SAction
     {
         public GroupData merge_target;
+        public bool show_guide_arrow = false; 
 
         //When using an ItemData action on another ItemData (ex: cut coconut), slot is the one with the action, slot_other is the one without the action
         public virtual void DoAction(PlayerCharacter character, ItemSlot slot, ItemSlot slot_other)

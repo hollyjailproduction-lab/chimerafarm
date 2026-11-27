@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: griffin_item
   title: Griffin
-  icon: {fileID: 21300000, guid: f0f6d7d9dcd49744fb1867d827d3a4c4, type: 3}
+  icon: {fileID: -296642877, guid: 87ea839e5d28ab04ca28b46b153d84d4, type: 3}
   desc: A small Griffin
   groups: []
   craftable: 0

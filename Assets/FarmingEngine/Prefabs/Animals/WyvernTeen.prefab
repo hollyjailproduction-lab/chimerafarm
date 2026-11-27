@@ -136,7 +136,8 @@ MonoBehaviour:
   use_range: 1.5
   actions:
   - {fileID: 11400000, guid: 10e8bb9f9701c9c49926b3802bd0a588, type: 2}
-  groups: []
+  groups:
+  - {fileID: 11400000, guid: 9d164fcb3985485458df08675baccd10, type: 2}
   active_range: 50
   always_run_scripts: 0
   outline: {fileID: 5927198942652083371}
@@ -188,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f96849de29c3d45b7031b386703502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: f6132fa7373692b42afdee65c019bf93, type: 2}
+  data: {fileID: 11400000, guid: 51a1767be674e304a91dc62839fbcecc, type: 2}
   move_enabled: 1
   move_speed: 1.2
   rotate_speed: 350
@@ -240,7 +241,7 @@ MonoBehaviour:
   item_produce_time: 24
   item_max: 1
   item_max_range: 10
-  grow_to: {fileID: 0}
+  grow_to: {fileID: 11400000, guid: f6132fa7373692b42afdee65c019bf93, type: 2}
   grow_eat_count: 2
   grow_time: 24
   can_breed: 1

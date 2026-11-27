@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: FeedJackalope
   m_EditorClassIdentifier: 
   title: 
-  merge_target: {fileID: 11400000, guid: 98f45e4dc0169054dba81a884451b86f, type: 2}
+  merge_target: {fileID: 11400000, guid: d42f16bb7eb682c499f36b39cfb03033, type: 2}
   food_item: {fileID: 11400000, guid: 3065d65db115d864ab013920ee5bb260, type: 2}
   friendship_gain: 10

@@ -53,6 +53,10 @@ namespace FarmingEngine
         [Header("Animal Setup")]
         public List<AnimalPenMapping> animal_pen_mappings = new List<AnimalPenMapping>();
 
+        [Header("UI Hiding")]
+        [Tooltip("Masukkan UI yang mau disembunyikan saat toko buka (Hotbar, tombol Inventory, dll)")]
+        public GameObject[] ui_to_hide;
+
         [System.Serializable]
     public class AnimalPenMapping
     {
@@ -243,23 +247,27 @@ private void PositionSlotsManually()
         }
 
         public override void Show(bool instant = false)
-{
-    base.Show(instant);
-    
-    // Setelah panel aktif, rebuild layout
-    if (slot_container != null)
-    {
-        UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(
-            slot_container.GetComponent<RectTransform>()
-        );
-    }
-}
+        {
+            base.Show(instant);
+
+            // Sembunyikan UI yang ada di dalam list
+            foreach (GameObject ui in ui_to_hide)
+            {
+                if (ui != null) 
+                    ui.SetActive(false);
+            }
+        }
 
         public override void Hide(bool instant = false)
         {
             base.Hide(instant);
-            current_player = null;
-            TheCamera.Get()?.StopFocus();
+
+            // Munculkan kembali UI yang tadi disembunyikan
+            foreach (GameObject ui in ui_to_hide)
+            {
+                if (ui != null) 
+                    ui.SetActive(true);
+            }
         }
 
         private void OnClickSlot(UISlot islot)

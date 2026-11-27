@@ -46,7 +46,7 @@ namespace FarmingEngine
 
             foreach (SAction action in idata.actions)
             {
-                if (action is MAction maction && maction.merge_target != null)
+                if (action is MAction maction && maction.merge_target != null && maction.show_guide_arrow)
                     return maction.merge_target;
             }
             return null;

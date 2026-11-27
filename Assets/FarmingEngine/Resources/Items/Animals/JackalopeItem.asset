@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: jackalope_item
   title: Jackalope
-  icon: {fileID: 21300000, guid: c6c499fb49948db40904c99fb48c58a2, type: 3}
+  icon: {fileID: 21300000, guid: 51dcdea4a436e16488a13ce43ab8c175, type: 3}
   desc: A small rabbit.
   groups: []
   craftable: 0

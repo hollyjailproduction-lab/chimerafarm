@@ -138,7 +138,8 @@ MonoBehaviour:
   actions:
   - {fileID: 11400000, guid: 10e8bb9f9701c9c49926b3802bd0a588, type: 2}
   - {fileID: 11400000, guid: b2a725be4c28f4c4db5531b1b34e813e, type: 2}
-  groups: []
+  groups:
+  - {fileID: 11400000, guid: 9d164fcb3985485458df08675baccd10, type: 2}
   active_range: 50
   always_run_scripts: 0
   outline: {fileID: 5927198942652083371}
@@ -242,7 +243,7 @@ MonoBehaviour:
   item_produce_time: 24
   item_max: 1
   item_max_range: 10
-  grow_to: {fileID: 0}
+  grow_to: {fileID: 11400000, guid: 51a1767be674e304a91dc62839fbcecc, type: 2}
   grow_eat_count: 2
   grow_time: 24
   can_breed: 1

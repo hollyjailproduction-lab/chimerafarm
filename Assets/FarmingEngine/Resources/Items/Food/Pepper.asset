@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: pepper
   title: Ghost peppers
-  icon: {fileID: 21300000, guid: 61bf2edf0b744974a899c187bf625093, type: 3}
+  icon: {fileID: 21300000, guid: 7ff5df483987b024eac66d063f92ac9a, type: 3}
   desc: Edible and sweet.
   groups:
   - {fileID: 11400000, guid: 614011cf11609074480a5533beb94215, type: 2}

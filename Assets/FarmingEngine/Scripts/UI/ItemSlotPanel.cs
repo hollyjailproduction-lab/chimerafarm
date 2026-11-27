@@ -105,7 +105,14 @@ namespace FarmingEngine
                         if (equipped_data_now != null)
                         {
                             active_hand_item = equipped_data_now;
-                            slot.SetSlot(active_hand_item, 1, true);
+                            
+                            // UBAH NAMA VARIABELNYA JADI 'hand_data'
+                            InventoryItemData hand_data = inventory.GetInventoryItem(i);
+                            int sisa_quantity = hand_data != null ? hand_data.quantity : 0;
+                            
+                            int total_quantity = 1 + sisa_quantity; 
+
+                            slot.SetSlot(active_hand_item, total_quantity, true);
                             continue;
                         }
                         else

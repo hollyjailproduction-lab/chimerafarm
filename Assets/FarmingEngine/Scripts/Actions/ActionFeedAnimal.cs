@@ -9,20 +9,19 @@ public class ActionFeedAnimal : MAction
 
     public override void DoAction(PlayerCharacter character, ItemSlot slot, Selectable select)
     {
-        // Cek apakah targetnya hewan
         AnimalLivestock animal = select.GetComponent<AnimalLivestock>();
+        
         if (animal != null && slot.GetItem() == food_item)
         {
             // 1. Hilangkan 1 makanan dari tangan/inventory
             character.Inventory.UseItem(food_item, 1); 
 
-            // 2. Beri efek ke hewan (misal naikkan friendship, atau hilangkan status lapar)
-            // Kita asumsikan AnimalLivestock punya variabel/properti friendship
-            // animal.GiveFood(); 
-            
+            // 2. BERI TAHU HEWANNYA BAHWA DIA SEDANG MAKAN
+            animal.FeedByPlayer(); // <--- INI KUNCI RAHASIANYA
+
             Debug.Log($"Memberi makan {food_item.title} ke {animal.name}!");
             
-            // Animasi player mengambil/memberi makan
+            // 3. (Opsional) Animasi player mengambil/memberi makan
             character.TriggerAnim("take", animal.transform.position); 
         }
     }

@@ -67,6 +67,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3384303252404522566}
   - {fileID: 715764069863310609}
   - {fileID: 7803942513113149135}
   - {fileID: 7392176836152446644}
@@ -136,7 +137,8 @@ MonoBehaviour:
   use_range: 1.5
   actions:
   - {fileID: 11400000, guid: 10e8bb9f9701c9c49926b3802bd0a588, type: 2}
-  groups: []
+  groups:
+  - {fileID: 11400000, guid: 3df67befb368c0045aeaf4f6f3a635cd, type: 2}
   active_range: 50
   always_run_scripts: 0
   outline: {fileID: 5927198942652083371}
@@ -244,7 +246,7 @@ MonoBehaviour:
   grow_eat_count: 2
   grow_time: 24
   can_breed: 1
-  baby_data: {fileID: 0}
+  baby_data: {fileID: 11400000, guid: 70f98c29d4d11ec4a92d78d9ef715417, type: 2}
   breeding_cooldown_days: 2
   mate_search_range: 15
   mate_range: 1.2
@@ -448,6 +450,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HippogriffinAdult
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 64850117411463f47a4fb24888779afd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -490,4 +497,110 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 64850117411463f47a4fb24888779afd,
     type: 3}
   m_PrefabInstance: {fileID: 1037058114958762746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2989770706309884333
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2903144896332874382}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      propertyPath: m_Name
+      value: Hippogriff_Adult (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 961061108603047663}
+  m_SourcePrefab: {fileID: 100100000, guid: 3b62f6ec0f76e2441903b172c28e1b38, type: 3}
+--- !u!1 &2719230021019702524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+    type: 3}
+  m_PrefabInstance: {fileID: 2989770706309884333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &961061108603047663
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2719230021019702524}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: cef35209f759f374fa1ab6c4656bc6a3, type: 3}
+  m_Controller: {fileID: 9100000, guid: 46b9227559de194448001f1e2045d8d1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &3384303252404522566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b62f6ec0f76e2441903b172c28e1b38,
+    type: 3}
+  m_PrefabInstance: {fileID: 2989770706309884333}
   m_PrefabAsset: {fileID: 0}
